@@ -1,0 +1,252 @@
+$container: #262626;
+$body: #18181b;
+$inputs: #3F3F46;
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 40vh;
+    background-color: $body;
+}
+
+.container {
+
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: #262626;
+
+    .titulo {
+
+        text-align: center;
+
+        i {
+            
+            display: inline;
+            
+        }
+
+        h1 {
+
+            display: inline;
+            color: #f8fafc;
+            font-size: 15px;
+        }
+    }
+
+    h1 {
+
+        text-align: center;
+        color: #f8fafc;
+        font-size: 23px;
+    }
+
+    .campos {
+
+        .span {
+
+            overflow: hidden;
+            display: block;
+            background-color: $inputs;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 5px;
+
+            #caixinha {
+
+                float: left;
+                color: #f8fafc;
+            }
+
+            #email {
+
+                background-color: transparent;
+                border: none;
+                padding: 0 0.5 rem;
+                width: 100%;
+                text-align: center;
+                color: white;
+            }
+
+            label {
+
+                   color: #f8fafc;
+                   margin-left: 12%;
+
+            }
+        }
+
+        
+        .seguranca {
+
+            overflow: hidden;
+            display: block;
+            background-color: $inputs;
+            width: 80%;
+            margin-top: 5px;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 5px;
+
+            #olho {
+
+                float: left;
+                color: #f8fafc;
+            }
+
+            #senha {
+
+                background-color: transparent;
+                border: none;
+                padding: 0 0.5 rem;
+                width: 100%;
+                text-align: center;
+                color: white;
+            }
+
+            label {
+
+                   color: #f8fafc;
+                   margin-left: 35%;
+                   
+            }
+        }
+
+        .meio {
+
+            display: flex;
+            width: 100%;
+
+            p {
+
+                color: #f8fafc;
+                margin-left: 4px;
+            }
+
+                    /* Estilo do container do toggle switch */
+            .toggle-switch {
+                margin-left: 40%;
+                margin-top: 13px;
+                position: relative;
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                background-color: #ccc;
+                border-radius: 15px;
+                cursor: pointer;
+             }
+  
+  /* Estilo do checkbox oculto */
+            .toggle-switch input[type="checkbox"] {
+                display: none;
+            }
+  
+  /* Estilo do slider (a bolinha) */
+            .toggle-switch .slider {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 20px;
+                height: 20px;
+                background-color: #42c11f;
+                border-radius: 50%;
+                transition: 0.5s;
+            }
+  
+  /* Estilo do slider quando o checkbox está marcado */
+            .toggle-switch input[type="checkbox"]:checked + .slider {
+                left: 20px; /* Movendo o slider para a direita */
+            }
+  
+  
+          
+    }
+
+
+  
+
+    
+        #entra {
+            width: 80%;
+            height: 30px; 
+            font-size: 15px; 
+            display: inline;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 20px;
+            border: none;
+        }
+        
+        .top {
+
+            margin-top: 5px;
+            display: block;
+            .ou {
+
+                color: #f8fafc;
+                margin-left: 46%;
+                margin-top: 5px;
+                text-align: center;
+                display: inline;
+                font-size: 14px;
+            }
+    
+            .linha {
+                width: 230px; 
+                height: 1px; 
+                background-color: #c4abab; 
+                margin: 10px 0; 
+                margin-left: 10%;
+                margin-right: 10%;
+              }
+        }
+        #faceb {
+
+            width: 80%;
+            height: 30px; 
+            font-size: 15px; 
+            display: inline;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 20px;
+            background-color: royalblue;
+            color: white;
+            border: none;
+        }
+
+        .fim {
+
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+
+            p {
+
+                display: inline;
+                color: #f8fafc;
+            }
+
+            a {
+                text-decoration: underline;
+                color: #f8fafc;
+            }
+        }
+
+        
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
+}
+
+  

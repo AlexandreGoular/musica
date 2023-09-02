@@ -1,0 +1,186 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 40vh;
+  background-color: #18181b;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 10px;
+  background-color: #262626;
+}
+.container .titulo {
+  text-align: center;
+}
+.container .titulo i {
+  display: inline;
+}
+.container .titulo h1 {
+  display: inline;
+  color: #f8fafc;
+  font-size: 15px;
+}
+.container h1 {
+  text-align: center;
+  color: #f8fafc;
+  font-size: 23px;
+}
+.container .campos .span {
+  overflow: hidden;
+  display: block;
+  background-color: #3F3F46;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+}
+.container .campos .span #caixinha {
+  float: left;
+  color: #f8fafc;
+}
+.container .campos .span #email {
+  background-color: transparent;
+  border: none;
+  padding: 0 0.5 rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.container .campos .span label {
+  color: #f8fafc;
+  margin-left: 12%;
+}
+.container .campos .seguranca {
+  overflow: hidden;
+  display: block;
+  background-color: #3F3F46;
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+}
+.container .campos .seguranca #olho {
+  float: left;
+  color: #f8fafc;
+}
+.container .campos .seguranca #senha {
+  background-color: transparent;
+  border: none;
+  padding: 0 0.5 rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.container .campos .seguranca label {
+  color: #f8fafc;
+  margin-left: 35%;
+}
+.container .campos .meio {
+  display: flex;
+  width: 100%;
+  /* Estilo do container do toggle switch */
+  /* Estilo do checkbox oculto */
+  /* Estilo do slider (a bolinha) */
+  /* Estilo do slider quando o checkbox está marcado */
+}
+.container .campos .meio p {
+  color: #f8fafc;
+  margin-left: 4px;
+}
+.container .campos .meio .toggle-switch {
+  margin-left: 40%;
+  margin-top: 13px;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.container .campos .meio .toggle-switch input[type=checkbox] {
+  display: none;
+}
+.container .campos .meio .toggle-switch .slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: #42c11f;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.container .campos .meio .toggle-switch input[type=checkbox]:checked + .slider {
+  left: 20px; /* Movendo o slider para a direita */
+}
+.container .campos #entra {
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  display: inline;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+  border: none;
+}
+.container .campos .top {
+  margin-top: 5px;
+  display: block;
+}
+.container .campos .top .ou {
+  color: #f8fafc;
+  margin-left: 46%;
+  margin-top: 5px;
+  text-align: center;
+  display: inline;
+  font-size: 14px;
+}
+.container .campos .top .linha {
+  width: 230px;
+  height: 1px;
+  background-color: #c4abab;
+  margin: 10px 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container .campos #faceb {
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  display: inline;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+}
+.container .campos .fim {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.container .campos .fim p {
+  display: inline;
+  color: #f8fafc;
+}
+.container .campos .fim a {
+  text-decoration: underline;
+  color: #f8fafc;
+}
+.container input::-webkit-outer-spin-button,
+.container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+.container input:focus {
+  outline: none;
+}/*# sourceMappingURL=main.css.map */
